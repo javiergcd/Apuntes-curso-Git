@@ -47,3 +47,13 @@ Los archivos de un proyecto pueden presentar los siguientes estados:
 A la representacion grafica de los 3 estados:
 
 ![referencia_imagen](/src/estados.png)
+
+## RESTAURAR A UNA VERSION ANTERIOR
+Restaurar una versión previa que ha sido grabado en el repositorio previamente 
+- $ git restore archivo.txt
+
+En cao de que se quiera restaurar todo el directorio de trabajo
+- $ git restore .
+
+En caso de que se quiera restaurar archivos que tengan una cierta extensión 
+- $ git restore ‘*.html’
