@@ -37,3 +37,13 @@ Iniciar el repositorio de una carpeta ya existente
 - $ cd <directorio del proyecto>
 - $ git init 
 
+---
+# STATES Y COMMITS
+## ESTADOS EN GIT
+Los archivos de un proyecto pueden presentar los siguientes estados:
+- Modified (modificado)
+- Staged (preparado)
+- Commited (confirmado)
+A la representacion grafica de los 3 estados:
+
+![referencia_imagen](/src/estados.png)
