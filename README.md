@@ -12,4 +12,28 @@ los cambios que se han realizado en ellos. Los repositorios pueden ser:
 - Repositorio local (en nuestro ordenador)
 - Repositorio remoto (en un servidor externo)
 
+## INSTALACION DE GIT
+
+
+## COMANDOS ESENCIALES
+Para conocer la versión de git que esta instalado en la maquina
+- "$ git --version" 
+
+Configurar nombre y correo
+- $ git config --global user.name “Su nombre”
+- $ git config --global user.email “Su email”
+
+Configurar el editor de texto de su elección
+- $ git config --global core.editor “code”
+
+Comprobar la configuracion actual 
+- $ git config –list
+
+Crear un proyecto desde cero
+- $ git init nuevo_proyecto
+- $ cd nuevo_proyecto
+
+Iniciar el repositorio de una carpeta ya existente
+- $ cd <directorio del proyecto>
+- $ git init 
 
