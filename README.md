@@ -111,3 +111,28 @@ Para clonar un repositorio remoto con la direccion HTTPS
 
 Para subir cambios del repositorio local hacia el repositorio remoto
 - >$ git push -u origin website
+
+### Ejercicio 4.2
+Creacion de un nuevo repositorio en Github con el nombre de "MiPrimerRepositorio", luego se debe vincular este repositorio con el repositorio local, a continuacion se muestra los comando utilizados para importar el proyecto a nuestra maquina.
+
+![Imagen del ejercicio 4.2](/src/Ejercicio4.2.png)
+
+### Ejercicio 4.3
+Se debe realizar un cambio en el repositorio local que se importo anteriormente, entonces se realizara un commit y luego un push para sincronizar los cambios realizados hacia el repositorio que esta alojado en GitHub. A continuacion, se muestra los comandos utilizados:
+![Imagen del ejercicio 4.3](/src/Ejercicio4.3.png)
+
+# PUSH: PULL Y PULL REQUEST
+## Que es una Pull Request?
+Un "Pull Request" (PR) es una solicitud que un colaborador envía al propietario de un repositorio remoto para proponer cambios en el código fuente. Se utiliza para revisar, discutir y potencialmente fusionar esos cambios en el proyecto principal. Los PRs facilitan la colaboración y la revisión de código en proyectos de desarrollo de software.
+
+## Hacer una buena Pull Request(PR)
+Para hacer una buena Pull Request (PR) y aumentar las posibilidades de que tus cambios sean aceptados en un proyecto de código abierto, se debe tener en cuenta lo siguiente:
+- Lee las Contribuciones del Proyecto
+- Haz Cambios Significativos
+- Cuida la Calidad del Código
+- Mantén tus PRs Pequeñas y Enfocadas
+- Describe tus Cambios Detalladamente
+- Incluye Pruebas (si corresponde)
+- Sé Receptivo a los Comentarios
+- Mantén tus PRs Actualizadas
+- Sé Paciente y Respetuoso
