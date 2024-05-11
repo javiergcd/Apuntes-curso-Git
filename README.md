@@ -136,3 +136,15 @@ Para hacer una buena Pull Request (PR) y aumentar las posibilidades de que tus c
 - Sé Receptivo a los Comentarios
 - Mantén tus PRs Actualizadas
 - Sé Paciente y Respetuoso
+
+### Ejercicio 5.1
+Se realizo la creacion de un "fork" de un repositorio publico.
+![Imagen del ejercicio 5.1](/src/Ejercicio5.1.png)
+
+Luego se realizo la clonacion en la maquina local
+
+![Imagen del ejercicio 5.1b](/src/Ejercicio5.1b.png)
+
+
+se hizo cambios ne el codigo, para luego hacer un push de estos cambio hacia el repositorio remoto.
+![Imagen del ejercicio 5.1c](/src/Ejercicio5.1c.png)
