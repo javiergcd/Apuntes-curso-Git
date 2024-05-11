@@ -82,3 +82,13 @@ Para añadir directamente un mensaje sin abrir el editor
 
 Enviar los cambios al repositorio remoto
 > - **$ git push -u origin nombre_de_la_rama**
+
+# BRANCH, MERGE Y CONFLICTOS
+
+
+## QUE ES UN BRANCH?
+Un "branch" en Git es una línea de desarrollo independiente que permite a los usuarios trabajar en características, correcciones de errores u otros cambios en paralelo sin afectar directamente la rama principal del proyecto, generalmente llamada "master" o "main".
+
+![referencia_imagen](/src/branch.png)
+
+La función de las ramas en un entorno de colaboración, donde diferentes personas están trabajando en un mismo código, se genera una evolución del código en paralelo. De esta forma, partiendo de un mismo código se generan diferentes ramas, esto sirve para aislar el trabajo de cada persona y una vez concluido se puede integrar el tronco del usuario hacia la rama principal.
