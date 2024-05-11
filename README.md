@@ -57,3 +57,17 @@ En cao de que se quiera restaurar todo el directorio de trabajo
 
 En caso de que se quiera restaurar archivos que tengan una cierta extensión 
 - $ git restore ‘*.html’
+
+## QUE ES UN COMMIT?
+Un "commit" en Git es una acción que realiza el usuario para guardar un conjunto de cambios en el repositorio. Esencialmente, un commit registra una instantánea del estado actual de los archivos en tu proyecto en un momento dado. Cada commit tiene asociado un mensaje descriptivo que explica los cambios realizados en ese commit.
+
+Los commits son fundamentales en Git y sirven varios propósitos:
+
+1. **Historial de cambios**
+2. **Revertir cambios**
+3. **Trabajo colaborativo**
+4. **Revisión y auditoría**
+
+
+
+
