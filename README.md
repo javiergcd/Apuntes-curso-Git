@@ -92,3 +92,22 @@ Un "branch" en Git es una línea de desarrollo independiente que permite a los u
 ![referencia_imagen](/src/branch.png)
 
 La función de las ramas en un entorno de colaboración, donde diferentes personas están trabajando en un mismo código, se genera una evolución del código en paralelo. De esta forma, partiendo de un mismo código se generan diferentes ramas, esto sirve para aislar el trabajo de cada persona y una vez concluido se puede integrar el tronco del usuario hacia la rama principal.
+
+# GITHUB
+## DIFERENCIA ENTRE GIT Y GITHUB
+La diferencia es que Git es un sistema de control de versiones distribuido que permite a los desarrolladores gestionar el historial de cambios de sus proyectos de software localmente. Por otro lado, GitHub es una plataforma en línea que aloja repositorios de Git de forma remota, facilitando la colaboración entre desarrolladores mediante herramientas como seguimiento de problemas, solicitudes de extracción y revisión de código.
+
+![referencia_imagen](/src/Git%20&%20Github.png)
+
+## CREAR UNA RAMA REMOTA
+Creacion de una rama en el repositorio local
+- >$ git switch -c website
+
+Para clonar un repositorio remoto con la direccion SSH
+- >$ git clone git@github.com:javiergcd/Apuntes-curso-Git.git
+
+Para clonar un repositorio remoto con la direccion HTTPS
+- >$ git clone https://github.com/javiergcd/Apuntes-curso-Git.git
+
+Para subir cambios del repositorio local hacia el repositorio remoto
+- >$ git push -u origin website
