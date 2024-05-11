@@ -17,25 +17,25 @@ los cambios que se han realizado en ellos. Los repositorios pueden ser:
 
 ## COMANDOS ESENCIALES
 Para conocer la versión de git que esta instalado en la maquina
-- "$ git --version" 
+> - "$ git --version" 
 
 Configurar nombre y correo
-- $ git config --global user.name “Su nombre”
-- $ git config --global user.email “Su email”
+> - $ git config --global user.name “Su nombre”
+> - $ git config --global user.email “Su email”
 
 Configurar el editor de texto de su elección
-- $ git config --global core.editor “code”
+> - $ git config --global core.editor “code”
 
 Comprobar la configuracion actual 
-- $ git config –list
+> - $ git config –list
 
 Crear un proyecto desde cero
-- $ git init nuevo_proyecto
-- $ cd nuevo_proyecto
+> - $ git init nuevo_proyecto
+> - $ cd nuevo_proyecto
 
 Iniciar el repositorio de una carpeta ya existente
-- $ cd <directorio del proyecto>
-- $ git init 
+> - $ cd <directorio del proyecto>
+> - $ git init 
 
 ---
 # STATES Y COMMITS
@@ -53,10 +53,10 @@ Restaurar una versión previa que ha sido grabado en el repositorio previamente
 - $ git restore archivo.txt
 
 En cao de que se quiera restaurar todo el directorio de trabajo
-- $ git restore .
+> - $ git restore .
 
 En caso de que se quiera restaurar archivos que tengan una cierta extensión 
-- $ git restore ‘*.html’
+> - $ git restore ‘*.html’
 
 ## QUE ES UN COMMIT?
 Un "commit" en Git es una acción que realiza el usuario para guardar un conjunto de cambios en el repositorio. Esencialmente, un commit registra una instantánea del estado actual de los archivos en tu proyecto en un momento dado. Cada commit tiene asociado un mensaje descriptivo que explica los cambios realizados en ese commit.
@@ -68,6 +68,17 @@ Los commits son fundamentales en Git y sirven varios propósitos:
 3. **Trabajo colaborativo**
 4. **Revisión y auditoría**
 
+## COMANDO PARA UN COMMIT
+Para agregar archivos al área de preparación (staging)
+> - Para un archivo especifico:               **$ git add nombre_del_archivo** 
 
+> - Para todos los archivos modificados:       **$ git add .**                       
 
+Para guardar los cambios que tienen en el área de staging
+> - **$ git commit**
 
+Para añadir directamente un mensaje sin abrir el editor
+> - **$ git commit -m “descripción del cambio”**
+
+Enviar los cambios al repositorio remoto
+> - **$ git push -u origin nombre_de_la_rama**
