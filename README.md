@@ -13,6 +13,21 @@ los cambios que se han realizado en ellos. Los repositorios pueden ser:
 - Repositorio remoto (en un servidor externo)
 
 ## INSTALACION DE GIT
+**En macOS** lo más sencillo sería instalar las Herramientas de Desarrollo de Xcode
+con el siguiente comando:
+- >$xcode-select --install
+
+Alternativa, puedes usar brew para instalar directamente:
+- >$brew install git
+
+**En sistemas Linux** se puede instalar desde el repositorio de software de tu distribucion.
+- >$ apt-get install git
+
+Para Fedorada seria:
+- >$ yum install git
+- >$ dnf install git
+
+**En Windows** es más sencillo descargar el instalador oficial y seguir los pasos del asistente: **https://git-scm.com/download/win.**
 
 
 ## COMANDOS ESENCIALES
