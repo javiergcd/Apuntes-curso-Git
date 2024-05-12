@@ -148,3 +148,14 @@ Luego se realizo la clonacion en la maquina local
 
 se hizo cambios ne el codigo, para luego hacer un push de estos cambio hacia el repositorio remoto.
 ![Imagen del ejercicio 5.1c](/src/Ejercicio5.1c.png)
+
+## BUENAS PRACTICAS EN GIT
+Es importante tener buenas prácticas en Git porque facilitan la colaboración entre equipos al mantener un historial de cambios claro y ordenado, permiten el mantenimiento del código de manera eficiente al organizar commits de forma atómica y con mensajes descriptivos, facilitan la detección y resolución de problemas al mantener un historial estructurado, mejoran la calidad del código mediante revisiones efectivas y aprovechan al máximo las características de Git para un control de versiones efectivo. A continuacion, se presentan alguna buenas practicas a tomar en cuenta:
+- Hacer commit a menudo no significa que debas hacer commits sin sentido.
+- Usar el verbo imperativo (Add, Change, Fix, Remove)
+- No uses punto final ni puntos suspensivos en tus mensajes
+- Usa como máximo 50 caracteres para tu mensaje de commit
+- Añade todo el contexto que se necesario en el cuerpo del commit
+- Usa un prefijo para tus commits para hacerlos más semánticos
+- Considera usar utilidades para hacer commit, Puedes usar husky para ejecutar scripts o comandos antes de realizar diferentes acciones sobre el repositorio.
+- Escribir un buen nombre de rama
