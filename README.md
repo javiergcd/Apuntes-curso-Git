@@ -159,3 +159,20 @@ Es importante tener buenas prácticas en Git porque facilitan la colaboración e
 - Usa un prefijo para tus commits para hacerlos más semánticos
 - Considera usar utilidades para hacer commit, Puedes usar husky para ejecutar scripts o comandos antes de realizar diferentes acciones sobre el repositorio.
 - Escribir un buen nombre de rama
+
+## HOOKS
+### Que son los Hooks?
+Los hooks en Git son scripts personalizados que puedes ejecutar automáticamente en respuesta a eventos específicos en el ciclo de vida de Git, como antes o después de un commit, una fusión, un push, entre otros. Estos scripts te permiten personalizar y automatizar tareas, como ejecutar pruebas de código, validar el formato del código, enviar notificaciones, entre otras acciones, lo que contribuye a mantener la integridad del repositorio y mejorar la eficiencia del flujo de trabajo del equipo.
+
+### Hooks lado del cliente
+- >pre-commit
+- >prepare-commit-msg
+- >commit-msg
+- >post-commit
+- >pre-push
+- >post-checkout y post-merge
+
+### Hooks lado del servidor
+- >pre-receive
+- >update
+- >post-receive
